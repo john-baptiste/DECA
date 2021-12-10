@@ -72,6 +72,11 @@ Clone the repo:
     You can also generate an obj file (which can be opened with Meshlab) that includes extracted texture from the input image.  
 
     Please run `python demos/demo_reconstruct.py --help` for more details. 
+    ```
+    Error: No module named 'apt_pkg'
+    cd /usr/lib/python3/dist-packages
+    sudo ln -s apt_pkg.cpython-38m-x86_64-linux-gnu.so apt_pkg.so
+    ```
 
     b. **expression transfer**   
     ```bash
