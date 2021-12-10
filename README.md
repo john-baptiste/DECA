@@ -24,6 +24,20 @@ Clone the repo:
   ```  
 
 ### Requirements
+* Ubuntu 20.04
+  ```
+  sudo add-apt-repository ppa:deadsnakes/ppa
+  sudo apt update
+  sudo apt install python3.7
+  
+  sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.7 1
+  sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.8 2
+  sudo update-alternatives --config python3
+  
+  sudo apt install python3-pip
+  sudo apt install python3-venv
+  ```
+  
 * Python 3.7 (numpy, skimage, scipy, opencv)  
 * PyTorch >= 1.6 (pytorch3d)  
 * face-alignment (Optional for detecting face)  
